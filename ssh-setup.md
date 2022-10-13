@@ -4,7 +4,6 @@
 - Download VS Code from online and Install it on your computer
 - Open VS Code
 ![image](vsCode.png)
-
 2. Remotely Connecting:
 - Open the terminal in VSCode by going to Terminal>New Terminal at the top
 - Type: ssh cs15lfa22qp@ieng6.ucsd.edu, where qp can be changed to whatever your username is, or type dluo@ieng6.ucsd.edu if that didn’t work
@@ -26,7 +25,7 @@
 - Afterwards, put this in: /Users/dani/.ssh/id_rsa.pub/dluo@igen6.ucsd.edu:~/.ssh/authorized_keys
 ![image](sshKeySetup.png)
 - Image below shows logging in without password
-![image](ssh-login-w:o-password.png)
+![image](ssh-login-wo-password.png)
 6. Optimizing Remote Running
 - One can optimize remote running by doing multiple actions at once
 - I still couldn't run using the cs15lfa22qp@ieng6.ucsd.edu account, there's is still a problem for some reason 
