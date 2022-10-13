@@ -29,5 +29,5 @@
 ![image](ssh-login-w:o-password.png)
 6. Optimizing Remote Running
 - One can optimize remote running by doing multiple actions at once
-- I still couldn't run using the cs15lfa22qp@ieng6.ucsd.edu, there's is still a problem for some reason 
+- I still couldn't run using the cs15lfa22qp@ieng6.ucsd.edu account, there's is still a problem for some reason 
 ![image](runningManyLines.png)
