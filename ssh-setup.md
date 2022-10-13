@@ -25,6 +25,8 @@
 - log into your ssh account, and enter "mkdir .ssh"
 - Afterwards, put this in: /Users/dani/.ssh/id_rsa.pub/dluo@igen6.ucsd.edu:~/.ssh/authorized_keys
 ![image](sshKeySetup.png)
+- Image below shows logging in without password
+![image](ssh-login-w:o-password.png)
 6. Optimizing Remote Running
 - One can optimize remote running by doing multiple actions at once
 ![image](runningManyLines.png)
