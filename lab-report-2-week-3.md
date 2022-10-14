@@ -168,7 +168,7 @@ static double averageWithoutLowest(double[] arr) {
   ```
 The problem that this code has is that it takes out one lowest double, but when there are multiple doubles that is the same as that lowest double, a problem occurs. It is suppose to only take out one of all the lowest doubles, but it takes out all of the lowest doubles that are the same. The bug is the if statement, it takes out all values that are equal to lowest. What I did to fix this is copying the index of lowest double, then only taking out that double and adding everything else when doing the sum.
 
-#Second bug
+# Second bug
 
 The failure-inducing input:
 ```
