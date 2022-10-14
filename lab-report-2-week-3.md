@@ -66,8 +66,10 @@ First is using add method:
 
 1. add method: add "banner"
 ![image](addBanner.png)
+
 2. add method: add "banana"
 ![image](addBanana.png)
+
 3. add method: add "hey"
 ![image](addHey.png)
 
