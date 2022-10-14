@@ -1,4 +1,4 @@
-This is my code for searchEngine
+# This is my code for searchEngine
 
     class Handler implements URLHandler {
     
@@ -55,3 +55,53 @@ This is my code for searchEngine
             }
         }
     }
+
+
+# Terminal Commands
+![image](terminal1.png)
+
+First is using add method:
+
+1. add method: add "banner"
+![image](addBanner.png)
+2. add method: add "banana"
+![image](addBanana.png)
+3. add method: add "hey"
+![image](addHey.png)
+
+Relevent variables:
+- String[] s, this is used to store the value being added
+- ArrayList<String> listOfStrings, this is used to store all of the values that have been added
+
+Relevent methods:
+- .getPath(), returns the path of current link
+- .equals(), compares two string, return true if same, false if not same.
+- .split(), used to split the query by "="
+- .getQuery(), returns the query of the current path
+- .get(), gets the variable at that index
+- .add(), adding the string to the list
+- new Handler().getList(), prints the list of strings out separated by commas
+
+
+
+Then we use the query method:
+
+4. query method: search "ban"
+![image](searchBan.png)
+
+Relevent variables:
+- String[] s, used to store the values being searched
+- ArrayList<String> listOfStrings, this is the list of strings that are all added
+- int i, used in the for loop
+
+Relevent methods:
+- .getPath(), returns the path of current link
+- .equals(), compares two string, return true if same, false if not same
+- .split(), used to split the query by "="
+- .getQuery(), returns the query of the current path
+- .get(), gets the variable at that index
+- .add(), adding the string to the list
+- .size(), used so the for loop stops when all strings are checked
+- .contains(), used to check if string contains what it is searching
+- new Handler().getList(), prints the list of strings out separated by commas
+
