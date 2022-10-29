@@ -64,13 +64,13 @@ class Handler implements URLHandler {
 
 First is using add method:
 
-1. add method: add "banner"
+1. add method: add "banner", the method handleRequest first checks the path for "/add", and then splits the query by the "=". If the first part of the query is "s", it will add the second part of the query, which is "banner", to the arrayList used to store Strings added. 
 ![image](addBanner.png)
 
-2. add method: add "banana"
+2. add method: add "banana", the method handleRequest checks the path again for "/add", and then splits the query by the "=". It checks the first part of the query which is "s" again, and add the second part of the query "banana", to the arrayList used to store Strings added, now the arrayList contains "banner" and "banana".
 ![image](addBanana.png)
 
-3. add method: add "hey"
+3. add method: add "hey", the method handleRequest checks the path once again for "/add", and then splits the query by the"=". The first part is "s" again so it adds the second part, which is "hey", to the arrayList. Now the arrayList contains "banner", "banana", and "hey".
 ![image](addHey.png)
 
 Relevent variables:
@@ -90,7 +90,7 @@ Relevent methods:
 
 Then we use the query method:
 
-4. query method: search "ban"
+4. query method: search "ban", this time, the handleRequest method checks for "/search" in the parameter, after finding "/search", it splits the query by "=" again. The first part still has to be "s", which it is. Now it searches the arrayList for any Strings containing the second part of query: "ban". It finds two words matching the requirement, which are "banner" and "banana". These words are added to a new list and returned. 
 ![image](searchBan.png)
 
 Relevent variables:
