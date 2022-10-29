@@ -240,4 +240,4 @@ static List<String> filter(List<String> list, StringChecker sc) {
     return result;
   }
 ```
-The bug is that when adding the strings into the array list with the completely opposite order. The bug is at the result.add(0, s). This adds to the front of the array instead. After fixing, changing to result.add(s), the result is in the correct order.
+The bug is that when adding the strings into the array list, it is added with the complete opposite order. The bug is at the result.add(0, s). This adds to the front of the array instead. In the symptom, [s, ss] is expected. But [ss, s] is what actually happend. This is because, at first, the method trys to add "s", it adds it to index 0. Then, it trys to add "ss", and adds it to index 0 and squeezing "s" to index 1. This means the result ends up being [ss, s]. After fixing, changing to result.add(s), the result is in the correct order; "s" will be first added to the first index available, which is index 0, then "ss" will be added at index 1. The ending result will be [s, ss].
