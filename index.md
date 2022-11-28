@@ -7,6 +7,10 @@
 [Lab Report 3 week 5](https://dairelia.github.io/cse15l-lab-report/lab-report-3-week-5.html)
 
 [Lab Report 4 week 7](https://dairelia.github.io/cse15l-lab-report/lab-report-4-week-7.html)
+
+[Lab Report 5 week 7](https://dairelia.github.io/cse15l-lab-report/lab-report-5-week-9.html)
+
+
 # Say Hi
 
 This is index.md
