@@ -83,6 +83,7 @@ if [[ -f ListExamples.java ]]
 checks if ListExamples.java is in the directory student-submission, in this case, the file ListExamples.java was not found, so the else statement goes through and echos "no file named ListExamples.java" and exits. 
 
 6. 
+
 ```
 cd .. # go back to copy testlistexamples into studentsubmission
 
